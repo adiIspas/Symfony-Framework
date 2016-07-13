@@ -18,11 +18,7 @@ $kernel->terminate($request, $response);
 
 $kernel->boot();
 $container = $kernel->getContainer();
-//$container->enterScope('request');
 $container->set('request',$request);
-
-//$templating = $container->get('templating');
-//echo $templating->render('EventBundle:Default:index.html.twig', array('name' => 'Vader', 'count' => 3));
 
 use Yoda\EventBundle\Entity\Event;
 
