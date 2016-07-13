@@ -19,11 +19,12 @@ class GenusController extends Controller
      */
     public function showAction($genusName)
     {
-        $templating = $this->container->get('templating');
-        $html = $templating->render('genus/show.html.twig',
-                    ['name' => $genusName]
-            );
+        $notes = [
+            'Octopus asked me a riddle, outsmarted me',
+            'I counted 8 legs... as they wrapped around me',
+            'Inked!'
+        ];
 
-        return new Response($html);
+        return $this->render('genus/show.html.twig',['name' => $genusName, 'notes' => $notes]);
     }
 }
