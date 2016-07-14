@@ -51,4 +51,16 @@ class LuckyController extends Controller
 
         return $this->render('number/show.html.twig', ['number' => 0, 'numbers' => $numbers]);
     }
+
+    /**
+     *  * @Route("/{_locale}", defaults={"_locale": "en"}, requirements={
+     *     "_locale": "en|fr"
+     * })
+     * @param $_locale
+     * @return Response
+     */
+    public function locationShow($_locale)
+    {
+        return new Response('Your location is ' . $_locale);
+    }
 }
