@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Yuhu!! {% endblock %}
+
+{% block body %}
+    {% if number != 0 %}
+        <h1>The lucky number is {{ number }}</h1>
+    {% endif %}
+
+    {% if number == 0 %}
+        <ul>
+            {% for n in numbers %}
+                {{ dump(n) }}
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
+
