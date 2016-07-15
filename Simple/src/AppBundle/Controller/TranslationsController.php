@@ -8,10 +8,11 @@
 
 namespace AppBundle\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
-class TranslationsController
+class TranslationsController extends Controller
 {
     /**
      * @Route("/translate")
@@ -20,8 +21,9 @@ class TranslationsController
      */
     public function indexAction()
     {
+        $start = time();
         $translated = $this->get('translator')->trans('Symfony is great');
-
-        return new Response($translated);
+        $end = time();
+        return new Response("Translate in " . ($end - $start) . "s " . $translated);
     }
 }
