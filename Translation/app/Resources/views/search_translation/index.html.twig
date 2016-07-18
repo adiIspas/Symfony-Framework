@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Search a translation
+{% endblock %}
+
+{% block body %}
+    <center>
+        {{ form_start(form) }}
+        {{ form_errors(form) }}
+
+        {{ form_row(form.text) }}
+        <br>
+        {{ form_row(form.language_text) }}
+        <br>
+        {{ form_end(form) }}
+    </center>
+{% endblock %}

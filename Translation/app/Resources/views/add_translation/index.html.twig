@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Add a new translation
+{% endblock %}
+{% block body %}
+    <center>
+    {{ form_start(form) }}
+        {{ form_errors(form) }}
+
+        {{ form_row(form.text) }}
+        <br>
+        {{ form_row(form.language_text) }}
+        <br>
+        {{ form_row(form.translation) }}
+        <br>
+    {{ form_end(form) }}
+    </center>
+{% endblock %}

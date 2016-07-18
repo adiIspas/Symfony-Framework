@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Successful added translation
+{% endblock %}
+
+{% block body %}
+    <center>
+    Your entry is successful added.
+    <br><br>
+    <button onclick="window.location.href='/add_translation/{{ language }}'">Add another translation</button>
+    </center>
+{% endblock %}

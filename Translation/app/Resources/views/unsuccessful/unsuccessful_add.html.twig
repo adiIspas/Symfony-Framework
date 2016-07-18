@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Un successful added translation
+{% endblock %}
+
+{% block body %}
+    <center>
+        This entry exist. The current translation for {{ text }} is {{ translation_text }}
+        <br><br>
+        <button onclick="window.location.href='/add_translation/{{ language_translation }}'">Add another translation</button>
+        <button onclick="window.location.href='/add_translation/update/{{ language_text }}/{{ text }}/{{ language_translation }}/{{ new_translation }}'">Update translation</button>
+    </center>
+{% endblock %}

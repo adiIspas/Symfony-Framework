@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Translation for {{ text }} is {{ translation }}
+{% endblock %}
+
+{% block body %}
+    <center>
+    Translation for {{ text }} is {{ translation }}
+        <br><br>
+        <button onclick="window.location.href='/search_translation/{{ language }}'">Search another translation</button>
+    </center>
+{% endblock %}
