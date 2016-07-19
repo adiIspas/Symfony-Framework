@@ -1,0 +1,11 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    {% trans %}Symfony is great{% endtrans %}
+    <br>
+    <p>{{ 'Symfony is great' | trans }}</p>
+    <br>
+    {{ 'Symfony is great'|transchoice(1) }}
+    <br>
+    {% transchoice 1 %}Symfony is great{% endtranschoice %}
+{% endblock %}
