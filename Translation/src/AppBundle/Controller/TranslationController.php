@@ -158,34 +158,22 @@ class TranslationController extends Controller
     public function updateTranslation($languageText, $text, $languageTranslation, $translationText)
     {
         $em = $this->getDoctrine()->getManager();
-        $repository = $this->getDoctrine()
-            ->getRepository('AppBundle:' . $languageTranslation . '_translation');
-
-        $query = $repository->createQueryBuilder('t')
-            ->where('t.text = :text')
-            ->setParameter('text', $text)
-            ->andWhere('t.languageText = :language_text')
-            ->setParameter('language_text', $languageText)
-            ->getQuery();
-
-        $translations = $query->getResult();
-
+        $translations = $this->search($text, $languageText, $languageTranslation);
 
         $translations[0]->setTranslation($translationText);
         $em->flush();
 
-        return $this->render('successful/successful_add.html.twig', array('language' => $languageTranslation,
-        ));
+        return $this->render('successful/successful_add.html.twig', array('language' => $languageTranslation,));
     }
 
     /**
-     * @Route("/search_translation/{language}")
+     * @Route("/search_translation/{languageTranslation}")
      * @return Response
      */
-    public function searchTranslation(Request $request, $language)
+    public function searchTranslation(Request $request, $languageTranslation)
     {
 
-        switch ($language) {
+        switch ($languageTranslation) {
             case 'en' : $translation = new en_translation(); break;
             case 'fr' : $translation = new fr_translation(); break;
             default : break;
@@ -202,25 +190,14 @@ class TranslationController extends Controller
 
         if ($form->isSubmitted() && $form->isValid()) {
             $text = $translation->getText();
-            $language_text = $translation->getLanguageText();
+            $languageText = $translation->getLanguageText();
 
-            $repository = $this->getDoctrine()
-                ->getRepository('AppBundle:' . $language . '_translation');
-
-            $query = $repository->createQueryBuilder('t')
-                ->where('t.text = :text')
-                ->setParameter('text', $text)
-                ->andWhere('t.languageText = :language_text')
-                ->setParameter('language_text', $language_text)
-                ->getQuery();
-
-
-            $translations = $query->getResult();
+            $translations = $this->search($text, $languageText, $languageTranslation);
 
             if (count($translations) > 0) {
                 $translation_text = $translations[0]->getTranslation();
                 return $this->render('successful/successful_search.html.twig', array('text' => $text, 'translation' => $translation_text,
-                    'language' => $language, 'form' => $form->createView(),
+                    'language' => $languageTranslation, 'form' => $form->createView(),
                 ));
             } else {
                 return new Response('<center>This entry doesn\'t exist.</center>');

@@ -25,11 +25,15 @@
       <file leaf-file-name="TranslationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TranslationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="111" column="49" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+            <state relative-caret-position="773">
+              <caret line="209" column="5" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
               <folding>
                 <element signature="e#6#95#0#PHP" expanded="true" />
                 <element signature="e#130#189#0#PHP" expanded="true" />
+                <element signature="e#824#921#0#PHP" expanded="false" />
+                <element signature="e#1096#2911#0#PHP" expanded="false" />
+                <element signature="e#3016#3324#0#PHP" expanded="false" />
+                <element signature="e#3508#4232#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -463,12 +467,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1468822891394</updated>
-      <workItem from="1468822892834" duration="27823000" />
+      <workItem from="1468822892834" duration="28330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27823000" />
+    <option name="totallyTimeSpent" value="28330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -505,7 +509,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -615,11 +621,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TranslationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="111" column="49" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+        <state relative-caret-position="773">
+          <caret line="209" column="5" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
             <element signature="e#130#189#0#PHP" expanded="true" />
+            <element signature="e#824#921#0#PHP" expanded="false" />
+            <element signature="e#1096#2911#0#PHP" expanded="false" />
+            <element signature="e#3016#3324#0#PHP" expanded="false" />
+            <element signature="e#3508#4232#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
