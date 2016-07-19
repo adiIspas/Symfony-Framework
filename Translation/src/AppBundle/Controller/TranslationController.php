@@ -32,18 +32,17 @@ class TranslationController extends Controller
     }
 
     /**
-     * @Route("/add_translation/{language}")
+     * @Route("/add_translation/{languageTranslation}")
+     * @param Request $request
+     * @param String $languageTranslation
      * @return Response
      */
-    public function addTranslation(Request $request, $language)
+    public function addTranslation(Request $request, $languageTranslation)
     {
-        switch ($language) {
-            case 'en' : $translation = new en_translation(); break;
-            case 'fr' : $translation = new fr_translation(); break;
-            default : break;
-        }
 
-        $form = $this->createFormBuilder($translation)
+        $translationTable = $this->getTranslationTable($languageTranslation);
+
+        $form = $this->createFormBuilder($translationTable)
                     ->add('text', TextType::class, array('label' => 'Original text '))
                     ->add('language_text', ChoiceType::class, array('label' => 'Language of text ',
                         'choices'  => $this->knowLanguages))
@@ -54,37 +53,24 @@ class TranslationController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            $text = $translation->getText();
-            $language_text = $translation->getLanguageText();
+            $text = $translationTable->getText();
+            $languageText = $translationTable->getLanguageText();
+            $translationText = $translationTable->getTranslation();
 
-            $em = $this->getDoctrine()->getManager();
 
-            $repository = $this->getDoctrine()
-                ->getRepository('AppBundle:' . $language . '_translation');
-
-            $query = $repository->createQueryBuilder('t')
-                ->where('t.text = :text')
-                ->setParameter('text', $text)
-                ->andWhere('t.languageText = :language_text')
-                ->setParameter('language_text', $language_text)
-                ->getQuery();
-
-            $translations = $query->getResult();
-
-            if(count($translations) == 0) {
-                $em->persist($translation);
-                $em->flush();
-
-                return $this->render('successful/successful_add.html.twig', array('language' => $language,
+            $translationResult = $this->translation($text,$languageText,$translationText,$languageTranslation);
+            
+            if($translationResult == 1) {
+                return $this->render('successful/successful_add.html.twig', array('language' => $languageTranslation,
                     'form' => $form->createView(),
                 ));
             }
             else {
                 return $this->render('unsuccessful/unsuccessful_add.html.twig', array('text' => $text,
-                    'translation_text' => $translations[0]->getTranslation(), 'new_translation' => $translation->getTranslation(),
-                    'language_translation' => $language, 'language_text' => $language_text,
-                ));
+                    'translation_text' => $translationResult, 'new_translation' => $translationText,
+                    'language_translation' => $languageTranslation, 'language_text' => $languageText,));
             }
+
         }
 
         return $this->render('add_translation/index.html.twig', array(
@@ -93,11 +79,67 @@ class TranslationController extends Controller
     }
 
     /**
+     * @param String $language
+     * @return Entity en_translation|fr_translation
+     */
+    private function getTranslationTable($language)
+    {
+        switch ($language) {
+            case 'en' : $translationTable = new en_translation(); break;
+            case 'fr' : $translationTable = new fr_translation(); break;
+            default : break;
+        }
+
+        return $translationTable;
+    }
+
+    /**
+     * @param String $text
+     * @param String $languageText
+     * @param String $translationText
+     * @param String $languageTranslation
+     * @return bool
+     */
+    public function translation($text, $languageText, $translationText, $languageTranslation)
+    {
+        $translationTable = $this->getTranslationTable($languageTranslation);
+
+        $translationTable->setText($text);
+        $translationTable->setLanguageText($languageText);
+        $translationTable->setTranslation($translationText);
+
+
+        $em = $this->getDoctrine()->getManager();
+
+        $repository = $this->getDoctrine()
+            ->getRepository('AppBundle:' . $languageTranslation . '_translation');
+
+        $query = $repository->createQueryBuilder('t')
+            ->where('t.text = :text')
+            ->setParameter('text', $text)
+            ->andWhere('t.languageText = :language_text')
+            ->setParameter('language_text', $languageText)
+            ->getQuery();
+
+        $translations = $query->getResult();
+
+        if(count($translations) == 0) {
+            $em->persist($translationTable);
+            $em->flush();
+
+            return 1;
+        }
+        else {
+            return $translations[0]->getTranslation();
+        }
+    }
+
+    /**
      * @Route("/add_translation/update/{languageText}/{text}/{languageTranslation}/{translationText}")
-     * @param $languageText
-     * @param $text
-     * @param $languageTranslation
-     * @param $translationText
+     * @param String $languageText
+     * @param String $text
+     * @param String $languageTranslation
+     * @param String $translationText
      * @return Response
      */
     public function updateTranslation($languageText, $text, $languageTranslation, $translationText)
