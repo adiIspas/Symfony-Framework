@@ -59,7 +59,7 @@ class TranslationController extends Controller
 
 
             $translationResult = $this->translation($text,$languageText,$translationText,$languageTranslation);
-            
+
             if($translationResult == 1) {
                 return $this->render('successful/successful_add.html.twig', array('language' => $languageTranslation,
                     'form' => $form->createView(),
@@ -111,6 +111,27 @@ class TranslationController extends Controller
 
         $em = $this->getDoctrine()->getManager();
 
+        $translations = $this->search($text, $languageText, $languageTranslation);
+
+        if(count($translations) == 0) {
+            $em->persist($translationTable);
+            $em->flush();
+
+            return 1;
+        }
+        else {
+            return $translations[0]->getTranslation($languageTranslation);
+        }
+    }
+
+    /**
+     * @param String $text
+     * @param String $languageText
+     * @param String $languageTranslation
+     * @return mixed
+     */
+    private function search($text, $languageText, $languageTranslation)
+    {
         $repository = $this->getDoctrine()
             ->getRepository('AppBundle:' . $languageTranslation . '_translation');
 
@@ -123,15 +144,7 @@ class TranslationController extends Controller
 
         $translations = $query->getResult();
 
-        if(count($translations) == 0) {
-            $em->persist($translationTable);
-            $em->flush();
-
-            return 1;
-        }
-        else {
-            return $translations[0]->getTranslation();
-        }
+        return $translations;
     }
 
     /**
