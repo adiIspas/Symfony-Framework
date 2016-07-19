@@ -168,18 +168,20 @@ class TranslationController extends Controller
 
     /**
      * @Route("/search_translation/{languageTranslation}")
+     * @param Request $request
+     * @param String $languageTranslation
      * @return Response
      */
     public function searchTranslation(Request $request, $languageTranslation)
     {
 
         switch ($languageTranslation) {
-            case 'en' : $translation = new en_translation(); break;
-            case 'fr' : $translation = new fr_translation(); break;
+            case 'en' : $translationTable = new en_translation(); break;
+            case 'fr' : $translationTable = new fr_translation(); break;
             default : break;
         }
 
-        $form = $this->createFormBuilder($translation)
+        $form = $this->createFormBuilder($translationTable)
             ->add('text', TextType::class, array('label' => 'Text for translation '))
             ->add('language_text', ChoiceType::class, array('label' => 'Language of text ',
                 'choices'  => $this->knowLanguages))
@@ -189,8 +191,8 @@ class TranslationController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            $text = $translation->getText();
-            $languageText = $translation->getLanguageText();
+            $text = $translationTable->getText();
+            $languageText = $translationTable->getLanguageText();
 
             $translations = $this->search($text, $languageText, $languageTranslation);
 
