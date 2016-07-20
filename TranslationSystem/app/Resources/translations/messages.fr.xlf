@@ -6,6 +6,21 @@
                 <source>Symfony is great</source>
                 <target>J'aime Symfony</target>
             </trans-unit>
+            
+            <trans-unit id="2">
+                <source>Login</source>
+                <target>S'identifier</target>
+            </trans-unit>
+            
+            <trans-unit id="3">
+                <source>Register</source>
+                <target>Registre</target>
+            </trans-unit>
+            
+            <trans-unit id="4">
+                <source>Language</source>
+                <target>La langue</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

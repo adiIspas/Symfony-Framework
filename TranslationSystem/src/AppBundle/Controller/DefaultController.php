@@ -17,11 +17,14 @@ class DefaultController extends Controller
         //$request->setLocale('fr');
         //$locale = $request->getLocale();
 
-        //$translated = $this->get('translator')->trans('Symfony is great');
+
+        //$this->container->setParameter('locale_trans','fr');
+        //$translated = $this->get('translator')->trans('Login');
 
         return $this->render('translation/translation.html.twig');
 
-        //$recipient = $this->container->getParameter('locale1');
+        //$recipient = $this->container->getParameter('locale_trans');
+
 
         //return new Response('Locale is: ' . $recipient . '<br>' . 'Translated is: ' . $translated);
     }
