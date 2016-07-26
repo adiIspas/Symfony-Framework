@@ -1,0 +1,22 @@
+[32m*** Importing application translation files ***[39m
+[32m*** Using dir C:/SymfonyProjects/TranslationBundle3/app/Resources/translations to lookup translation files. ***[39m
+No file to import
+Bundle: C:\SymfonyProjects\TranslationBundle3\src\AppBundle | C:\SymfonyProjects\TranslationBundle3\src\AppBundle
+[32m# AppBundle:[39m
+[32m*** Using dir C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations to lookup translation files. ***[39m
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\messages.bg.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\messages.en.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\messages.hu.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\messages.pl.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\messages.ro.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\validators.bg.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\validators.en.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\validators.hu.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\validators.pl.xliff"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/AppBundle/Resources/translations\validators.ro.xliff"[39m ... 0 translations
+Bundle: C:\SymfonyProjects\TranslationBundle3\src\TestBundle | C:\SymfonyProjects\TranslationBundle3\src\TestBundle
+[32m# TestBundle:[39m
+[32m*** Using dir C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations to lookup translation files. ***[39m
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations\messages.en.yml"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations\messages.ro.yml"[39m ... 0 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations\validators.ro.yml"[39m ... 31 translations

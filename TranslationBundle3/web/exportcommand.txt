@@ -1,0 +1,65 @@
+[32m# Exporting "Resources/translations/messages.bg.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.bg.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.bg.xliff[39m
+[33m3 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/messages.en.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.en.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.en.xliff[39m
+[33m3 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/messages.hu.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.hu.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.hu.xliff[39m
+[33m3 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/messages.pl.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.pl.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.pl.xliff[39m
+[33m4 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/messages.ro.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.ro.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.ro.xliff[39m
+[33m3 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/validators.bg.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.bg.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.bg.xliff[39m
+[33m1 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/validators.en.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.en.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.en.xliff[39m
+[33m2 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/validators.hu.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.hu.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.hu.xliff[39m
+[33m1 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/validators.pl.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.pl.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.pl.xliff[39m
+[33m1 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/validators.ro.xliff":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.ro.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.ro.xliff[39m
+[33m2 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/messages.ro.yml":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.ro.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.ro.xliff[39m
+[33m23 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/messages.en.yml":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.en.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.en.xliff[39m
+[33m23 translations to export: [39m[33msuccess[39m
+[32m# Exporting "Resources/translations/validators.ro.yml":[39m
+[32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
+[32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.ro.xliff":[39m
+[33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/validators.ro.xliff[39m
+[33m33 translations to export: [39m[33msuccess[39m

@@ -3,12 +3,12 @@
   <file source-language="en" datatype="plaintext" original="file.ext">
     <body>
       <trans-unit id="1">
-        <source><![CDATA[translations.name]]></source>
-        <target><![CDATA[Nume]]></target>
+        <source><![CDATA[translation.validator]]></source>
+        <target><![CDATA[Validator]]></target>
       </trans-unit>
       <trans-unit id="2">
-        <source><![CDATA[translations.forename]]></source>
-        <target><![CDATA[Prenume]]></target>
+        <source><![CDATA[translation.validator_message]]></source>
+        <target><![CDATA[Mesaj validator]]></target>
       </trans-unit>
     </body>
   </file>

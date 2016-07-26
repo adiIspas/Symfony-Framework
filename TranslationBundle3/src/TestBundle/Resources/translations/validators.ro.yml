@@ -1,0 +1,42 @@
+vendor_data:
+    email:
+        email: "Emailul public al sellerului este obligatoriu. Te rugam sa introduci o valoare valida (ex. email@example.com)."
+        not_blank: "Emailul public al sellerului este obligatoriu. Te rugam sa introduci o valoare valida (ex. email@example.com)."
+        min_length: "Emailul public al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere."
+        max_length: "Emailul public al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere."
+    name:
+        not_blank: "Denumirea societatii comerciale este obligatorie. Te rugam sa introduci o valoare."
+        min_length: "Denumirea societatii comerciale este obligatorie. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere."
+        max_length: "Denumirea societatii comerciale este obligatorie. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere."
+    cui:
+        invalid: "Campul este invalid. Te rugam sa introduci o valoare valida."
+        not_blank: "CUI este obligatoriu. Te rugam sa introduci o valoare valida."
+        min_length: "CUI este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere."
+        max_length: "CUI este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere."
+    order_number:
+        not_blank: "Registrul comertului este obligatoriu. Te rugam sa introduci o valoare valida."
+        min_length: "Registrul comertului este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere."
+        max_length: "Registrul comertului este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere."
+    phone:
+        not_blank: "Numarul de telefon al sellerului este obligatoriu. Te rugam sa introduci o valoare."
+        min_lenght: "Numarul de telefon al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} cifre."
+        max_lenght: "Numarul de telefon al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} cifre."
+    fax:
+        not_blank: "Numarul de fax al sellerului este obligatoriu. Te rugam sa introduci o valoare."
+        min_length: "Numarul de fax al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} cifre."
+        max_length: "Numarul de fax al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} cifre."
+    bank:
+        not_blank: "Numele bancii este obligatoriu. Te rugam sa introduci o valoare."
+        min_length: "Numele bancii este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere."
+        max_length: "Numele bancii este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere."
+    iban:
+        iban: "Campul IBAN (Internation Bank Account Number) este obligatoriu. Te rugam sa introduci o valoare valida."
+        not_blank: "Campul IBAN (Internation Bank Account Number) este obligatoriu. Te rugam sa introduci o valoare valida."
+        min_length: "Campul IBAN (Internation Bank Account Number) este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere."
+        max_length: "Campul IBAN (Internation Bank Account Number) este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere."
+    contract_date:
+        date: "Data contractului este obligatorie. Te rugam sa introduci o valoare (ex. 01/25/2015)."
+    address:
+        not_blank: "Adresa sellerului este obligatorie. Te rugam sa introduci o valoare."
+        min_message: "Adresa sellerului este obligatorie. Te rugam sa introduci o valoare intre {{ min }} si {{ max }} caractere."
+        max_message: "Adresa sellerului este obligatorie. Te rugam sa introduci o valoare intre {{ min }} si {{ max }} caractere."

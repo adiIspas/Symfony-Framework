@@ -3,16 +3,96 @@
   <file source-language="en" datatype="plaintext" original="file.ext">
     <body>
       <trans-unit id="1">
-        <source><![CDATA[translations.login]]></source>
+        <source><![CDATA[translation.login]]></source>
         <target><![CDATA[Login]]></target>
       </trans-unit>
       <trans-unit id="2">
-        <source><![CDATA[translations.send]]></source>
-        <target><![CDATA[Send]]></target>
+        <source><![CDATA[translation.welcom]]></source>
+        <target><![CDATA[Welcome]]></target>
       </trans-unit>
       <trans-unit id="3">
-        <source><![CDATA[translations.welcome]]></source>
-        <target><![CDATA[Welcome]]></target>
+        <source><![CDATA[translations.name]]></source>
+        <target><![CDATA[Name]]></target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source><![CDATA[{0} No detail sheet was validated|{1} Details sheet `%ids%` was validated|]1,Inf] The detail sheets %ids% where validated]]></source>
+        <target><![CDATA[{0} No detail sheet was validated|{1} Details sheet `%ids%` was validated|]1,Inf] The detail sheets %ids% where validated]]></target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source><![CDATA[0]]></source>
+        <target><![CDATA[The request has succeeded]]></target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source><![CDATA[1]]></source>
+        <target><![CDATA[The request has been fulfilled and resulted in a new resource being created]]></target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source><![CDATA[2]]></source>
+        <target><![CDATA[The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation]]></target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source><![CDATA[3]]></source>
+        <target><![CDATA[The request could not be understood by the server due to malformed syntax]]></target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source><![CDATA[4]]></source>
+        <target><![CDATA[The request requires user authentication]]></target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source><![CDATA[5]]></source>
+        <target><![CDATA[The request requires user authentification because user does not have permission to access / on this server.]]></target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source><![CDATA[6]]></source>
+        <target><![CDATA[The server has not found anything matching the Request-URI]]></target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source><![CDATA[7]]></source>
+        <target><![CDATA[The server encountered an unexpected condition which prevented it from fulfilling the request.]]></target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source><![CDATA[absolute]]></source>
+        <target><![CDATA[absolute]]></target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source><![CDATA[Absolute value is without VAT; percentual value will apply to the final amount, regardless of VAT]]></source>
+        <target><![CDATA[Absolute value is without VAT; percentual value will apply to the final amount, regardless of VAT]]></target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source><![CDATA[Access]]></source>
+        <target><![CDATA[Access]]></target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source><![CDATA[Access granted]]></source>
+        <target><![CDATA[Access granted]]></target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source><![CDATA[Access request]]></source>
+        <target><![CDATA[Access request]]></target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source><![CDATA[Account beneficiary]]></source>
+        <target><![CDATA[Account beneficiary]]></target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source><![CDATA[Account configuration data]]></source>
+        <target><![CDATA[Account configuration data]]></target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source><![CDATA[Account Manager]]></source>
+        <target><![CDATA[Account Manager]]></target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source><![CDATA[Acest template nu are definite constante]]></source>
+        <target><![CDATA[This template has no defined constants]]></target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source><![CDATA[Acknowledged or not shipped orders]]></source>
+        <target><![CDATA[Acknowledged or not shipped orders]]></target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source><![CDATA[Action]]></source>
+        <target><![CDATA[Action]]></target>
       </trans-unit>
     </body>
   </file>

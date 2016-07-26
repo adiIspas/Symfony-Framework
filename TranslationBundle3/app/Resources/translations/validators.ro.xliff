@@ -3,12 +3,136 @@
   <file source-language="en" datatype="plaintext" original="file.ext">
     <body>
       <trans-unit id="1">
-        <source><![CDATA[translations.name]]></source>
-        <target><![CDATA[Nume]]></target>
+        <source><![CDATA[translation.validator]]></source>
+        <target><![CDATA[Validator]]></target>
       </trans-unit>
       <trans-unit id="2">
-        <source><![CDATA[translations.forename]]></source>
-        <target><![CDATA[Prenume]]></target>
+        <source><![CDATA[translation.validator_message]]></source>
+        <target><![CDATA[Mesaj validator]]></target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source><![CDATA[vendor_data.email.email]]></source>
+        <target><![CDATA[Emailul public al sellerului este obligatoriu. Te rugam sa introduci o valoare valida (ex. email@example.com).]]></target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source><![CDATA[vendor_data.email.not_blank]]></source>
+        <target><![CDATA[Emailul public al sellerului este obligatoriu. Te rugam sa introduci o valoare valida (ex. email@example.com).]]></target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source><![CDATA[vendor_data.email.min_length]]></source>
+        <target><![CDATA[Emailul public al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source><![CDATA[vendor_data.email.max_length]]></source>
+        <target><![CDATA[Emailul public al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source><![CDATA[vendor_data.name.not_blank]]></source>
+        <target><![CDATA[Denumirea societatii comerciale este obligatorie. Te rugam sa introduci o valoare.]]></target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source><![CDATA[vendor_data.name.min_length]]></source>
+        <target><![CDATA[Denumirea societatii comerciale este obligatorie. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source><![CDATA[vendor_data.name.max_length]]></source>
+        <target><![CDATA[Denumirea societatii comerciale este obligatorie. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source><![CDATA[vendor_data.cui.invalid]]></source>
+        <target><![CDATA[Campul este invalid. Te rugam sa introduci o valoare valida.]]></target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source><![CDATA[vendor_data.cui.not_blank]]></source>
+        <target><![CDATA[CUI este obligatoriu. Te rugam sa introduci o valoare valida.]]></target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source><![CDATA[vendor_data.cui.min_length]]></source>
+        <target><![CDATA[CUI este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source><![CDATA[vendor_data.cui.max_length]]></source>
+        <target><![CDATA[CUI este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source><![CDATA[vendor_data.order_number.not_blank]]></source>
+        <target><![CDATA[Registrul comertului este obligatoriu. Te rugam sa introduci o valoare valida.]]></target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source><![CDATA[vendor_data.order_number.min_length]]></source>
+        <target><![CDATA[Registrul comertului este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source><![CDATA[vendor_data.order_number.max_length]]></source>
+        <target><![CDATA[Registrul comertului este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source><![CDATA[vendor_data.phone.not_blank]]></source>
+        <target><![CDATA[Numarul de telefon al sellerului este obligatoriu. Te rugam sa introduci o valoare.]]></target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source><![CDATA[vendor_data.phone.min_lenght]]></source>
+        <target><![CDATA[Numarul de telefon al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} cifre.]]></target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source><![CDATA[vendor_data.phone.max_lenght]]></source>
+        <target><![CDATA[Numarul de telefon al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} cifre.]]></target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source><![CDATA[vendor_data.fax.not_blank]]></source>
+        <target><![CDATA[Numarul de fax al sellerului este obligatoriu. Te rugam sa introduci o valoare.]]></target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source><![CDATA[vendor_data.fax.min_length]]></source>
+        <target><![CDATA[Numarul de fax al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} cifre.]]></target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source><![CDATA[vendor_data.fax.max_length]]></source>
+        <target><![CDATA[Numarul de fax al sellerului este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} cifre.]]></target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source><![CDATA[vendor_data.bank.not_blank]]></source>
+        <target><![CDATA[Numele bancii este obligatoriu. Te rugam sa introduci o valoare.]]></target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source><![CDATA[vendor_data.bank.min_length]]></source>
+        <target><![CDATA[Numele bancii este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source><![CDATA[vendor_data.bank.max_length]]></source>
+        <target><![CDATA[Numele bancii este obligatoriu. Te rugam sa introduci o valoare cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source><![CDATA[vendor_data.iban.iban]]></source>
+        <target><![CDATA[Campul IBAN (Internation Bank Account Number) este obligatoriu. Te rugam sa introduci o valoare valida.]]></target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source><![CDATA[vendor_data.iban.not_blank]]></source>
+        <target><![CDATA[Campul IBAN (Internation Bank Account Number) este obligatoriu. Te rugam sa introduci o valoare valida.]]></target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source><![CDATA[vendor_data.iban.min_length]]></source>
+        <target><![CDATA[Campul IBAN (Internation Bank Account Number) este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source><![CDATA[vendor_data.iban.max_length]]></source>
+        <target><![CDATA[Campul IBAN (Internation Bank Account Number) este obligatoriu. Te rugam sa introduci o valoare valida cuprinsa intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source><![CDATA[vendor_data.contract_date.date]]></source>
+        <target><![CDATA[Data contractului este obligatorie. Te rugam sa introduci o valoare (ex. 01/25/2015).]]></target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source><![CDATA[vendor_data.address.not_blank]]></source>
+        <target><![CDATA[Adresa sellerului este obligatorie. Te rugam sa introduci o valoare.]]></target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source><![CDATA[vendor_data.address.min_message]]></source>
+        <target><![CDATA[Adresa sellerului este obligatorie. Te rugam sa introduci o valoare intre {{ min }} si {{ max }} caractere.]]></target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source><![CDATA[vendor_data.address.max_message]]></source>
+        <target><![CDATA[Adresa sellerului este obligatorie. Te rugam sa introduci o valoare intre {{ min }} si {{ max }} caractere.]]></target>
       </trans-unit>
     </body>
   </file>

@@ -4,19 +4,15 @@
     <body>
       <trans-unit id="1">
         <source><![CDATA[translation.login]]></source>
-        <target><![CDATA[Zaloguj Się]]></target>
+        <target><![CDATA[Logare]]></target>
       </trans-unit>
       <trans-unit id="2">
         <source><![CDATA[translation.welcom]]></source>
-        <target><![CDATA[Witamy]]></target>
+        <target><![CDATA[Bun venit]]></target>
       </trans-unit>
       <trans-unit id="3">
         <source><![CDATA[translations.name]]></source>
-        <target><![CDATA[Nazwa]]></target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source><![CDATA[translations.send]]></source>
-        <target><![CDATA[Test]]></target>
+        <target><![CDATA[Nume]]></target>
       </trans-unit>
     </body>
   </file>
