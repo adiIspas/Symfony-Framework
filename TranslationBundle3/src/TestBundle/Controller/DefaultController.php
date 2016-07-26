@@ -8,10 +8,12 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/bundle-two")
      */
     public function indexAction()
     {
-        return $this->render('TestBundle:Default:index.html.twig');
+        return $this->render('default/testbundle.html.twig', array(
+            'base_dir' => realpath($this->container->getParameter('kernel.root_dir').'/..'),
+        ));
     }
 }

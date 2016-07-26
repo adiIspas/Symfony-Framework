@@ -19,4 +19,4 @@ Bundle: C:\SymfonyProjects\TranslationBundle3\src\TestBundle | C:\SymfonyProject
 [32m*** Using dir C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations to lookup translation files. ***[39m
 Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations\messages.en.yml"[39m ... 0 translations
 Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations\messages.ro.yml"[39m ... 0 translations
-Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations\validators.ro.yml"[39m ... 31 translations
+Importing [33m"C:/SymfonyProjects/TranslationBundle3/src/TestBundle/Resources/translations\validators.ro.yml"[39m ... 0 translations

@@ -3,16 +3,24 @@
   <file source-language="en" datatype="plaintext" original="file.ext">
     <body>
       <trans-unit id="1">
-        <source><![CDATA[translation.login]]></source>
-        <target><![CDATA[Влизане]]></target>
+        <source><![CDATA[translations.welcome]]></source>
+        <target><![CDATA[добре дошли]]></target>
       </trans-unit>
       <trans-unit id="2">
-        <source><![CDATA[translation.welcom]]></source>
-        <target><![CDATA[Добре дошли]]></target>
+        <source><![CDATA[translations.login]]></source>
+        <target><![CDATA[Влизане]]></target>
       </trans-unit>
       <trans-unit id="3">
         <source><![CDATA[translations.name]]></source>
         <target><![CDATA[име]]></target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source><![CDATA[translations.hello]]></source>
+        <target><![CDATA[Здравей]]></target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source><![CDATA[translations.world]]></source>
+        <target><![CDATA[свят]]></target>
       </trans-unit>
     </body>
   </file>
