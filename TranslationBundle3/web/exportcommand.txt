@@ -2,24 +2,24 @@
 [32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
 [32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.ro.xliff":[39m
 [33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.ro.xliff[39m
-[33m5 translations to export: [39m[33msuccess[39m
+[33m7 translations to export: [39m[33msuccess[39m
 [32m# Exporting "Resources/translations/messages.en.yml":[39m
 [32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
 [32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.en.xliff":[39m
 [33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.en.xliff[39m
-[33m5 translations to export: [39m[33msuccess[39m
+[33m7 translations to export: [39m[33msuccess[39m
 [32m# Exporting "Resources/translations/messages.bg.yml":[39m
 [32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
 [32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.bg.xliff":[39m
 [33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.bg.xliff[39m
-[33m5 translations to export: [39m[33msuccess[39m
+[33m7 translations to export: [39m[33msuccess[39m
 [32m# Exporting "Resources/translations/messages.hu.yml":[39m
 [32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
 [32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.hu.xliff":[39m
 [33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.hu.xliff[39m
-[33m5 translations to export: [39m[33msuccess[39m
+[33m7 translations to export: [39m[33msuccess[39m
 [32m# Exporting "Resources/translations/messages.pl.yml":[39m
 [32m# OutputPath "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations":[39m
 [32m# OutputFile "C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.pl.xliff":[39m
 [33mOutput file: C:\SymfonyProjects\TranslationBundle3\app/Resources/translations/messages.pl.xliff[39m
-[33m5 translations to export: [39m[33msuccess[39m
+[33m7 translations to export: [39m[33msuccess[39m
