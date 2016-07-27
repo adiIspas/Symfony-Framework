@@ -4,23 +4,31 @@
     <body>
       <trans-unit id="1">
         <source><![CDATA[translations.welcome]]></source>
-        <target><![CDATA[Welcome]]></target>
+        <target><![CDATA[добре дошли]]></target>
       </trans-unit>
       <trans-unit id="2">
         <source><![CDATA[translations.login]]></source>
-        <target><![CDATA[Login]]></target>
+        <target><![CDATA[Влизане]]></target>
       </trans-unit>
       <trans-unit id="3">
         <source><![CDATA[translations.name]]></source>
-        <target><![CDATA[Name]]></target>
+        <target><![CDATA[име]]></target>
       </trans-unit>
       <trans-unit id="4">
         <source><![CDATA[translations.hello]]></source>
-        <target><![CDATA[Hello]]></target>
+        <target><![CDATA[Здравей]]></target>
       </trans-unit>
       <trans-unit id="5">
         <source><![CDATA[translations.world]]></source>
-        <target><![CDATA[world]]></target>
+        <target><![CDATA[свят]]></target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source><![CDATA[translations.system]]></source>
+        <target><![CDATA[система]]></target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source><![CDATA[translations.cache]]></source>
+        <target><![CDATA[Cкривалище]]></target>
       </trans-unit>
     </body>
   </file>

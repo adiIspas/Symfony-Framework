@@ -4,23 +4,31 @@
     <body>
       <trans-unit id="1">
         <source><![CDATA[translations.welcome]]></source>
-        <target><![CDATA[добре дошли]]></target>
+        <target><![CDATA[Üdvözöljük]]></target>
       </trans-unit>
       <trans-unit id="2">
         <source><![CDATA[translations.login]]></source>
-        <target><![CDATA[Влизане]]></target>
+        <target><![CDATA[Belépek]]></target>
       </trans-unit>
       <trans-unit id="3">
         <source><![CDATA[translations.name]]></source>
-        <target><![CDATA[име]]></target>
+        <target><![CDATA[Név]]></target>
       </trans-unit>
       <trans-unit id="4">
         <source><![CDATA[translations.hello]]></source>
-        <target><![CDATA[Здравей]]></target>
+        <target><![CDATA[Helló]]></target>
       </trans-unit>
       <trans-unit id="5">
         <source><![CDATA[translations.world]]></source>
-        <target><![CDATA[свят]]></target>
+        <target><![CDATA[világ]]></target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source><![CDATA[translations.system]]></source>
+        <target><![CDATA[Rendszer]]></target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source><![CDATA[translations.cache]]></source>
+        <target><![CDATA[Cache]]></target>
       </trans-unit>
     </body>
   </file>
